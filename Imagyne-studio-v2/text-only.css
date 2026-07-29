@@ -1,7 +1,0 @@
-/* Final text-only treatment for founder cards. */
-.person {
-  border-top: 1px solid var(--line);
-  padding-top: 17px;
-}
-
-.person-number { margin-top: 0; }
