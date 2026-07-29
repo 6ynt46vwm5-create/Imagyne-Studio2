@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IMAGYNE Studio — photography, film and visual stories." />
+    <title>IMAGYNE Studio — Photography & Film</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="text-only.css" />
+    <link rel="stylesheet" href="about-menu.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="IMAGYNE Studio home">IMAGYNE<span>®</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+      <nav id="menu" aria-label="Main navigation">
+        <a href="#work">Services</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="about-trigger" aria-expanded="false" aria-controls="about-menu" aria-label="Open About Us"><span></span><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <p class="eyebrow">London · United Kingdom <span>Est. 2024</span></p>
+        <div class="hero-copy">
+          <h1>IMAGYNE</h1>
+          <p>Capturing moments. Creating stories.</p>
+        </div>
+        <a class="scroll-cue" href="#work">Scroll to discover <i></i></a>
+      </section>
+
+      <section class="statement section-pad" id="work">
+        <p class="eyebrow">Services</p>
+        <div class="statement-grid">
+          <h2>Images with a<br /><em>point of view.</em></h2>
+          <p>Built around intention, detail, and atmosphere.</p>
+        </div>
+      </section>
+
+      <section class="services section-pad" aria-label="Our services">
+        <article class="service"><h3>Photography</h3><p>Editorial portraits, campaigns, events, and brand imagery.</p><a href="#contact" aria-label="Enquire about photography">↗</a></article>
+        <article class="service"><h3>Videography</h3><p>Cinematic stories with feeling and clarity.</p><a href="#contact" aria-label="Enquire about videography">↗</a></article>
+        <article class="service"><h3>Photo Editing &amp;<br />Retouching</h3><p>Thoughtful finishing for every frame.</p><a href="#contact" aria-label="Enquire about photo editing">↗</a></article>
+        <article class="service"><h3>Video Editing</h3><p>Polished films made to be remembered.</p><a href="#contact" aria-label="Enquire about video editing">↗</a></article>
+      </section>
+
+      <aside class="about-menu" id="about-menu" aria-hidden="true">
+        <div class="about-menu__dialog">
+          <button class="about-close" aria-label="Close About Us">×</button>
+          <p class="eyebrow">About us</p>
+          <h2>Meet the<br />studio.</h2>
+          <div class="person-options" role="tablist" aria-label="Studio founders">
+            <button class="person-option is-selected" data-person="sina" role="tab" aria-selected="true">Sina Asli</button>
+            <button class="person-option" data-person="vahid" role="tab" aria-selected="false">Vahid Adib</button>
+          </div>
+          <div class="people">
+          <article class="person is-selected" data-person="sina" role="tabpanel">
+            <p class="person-number">Co-founder</p>
+            <h3>Sina Asli</h3>
+            <p class="role">Photographer · Visual Artist</p>
+            <details><summary>Read Sina’s story <span>+</span></summary><div><p>Sina’s creative journey began with drawing and digital art, building a strong foundation in composition, colour theory, lighting and visual storytelling. His artistic background naturally evolved into photography and videography, where he combines technical precision with a creative eye to produce timeless imagery.</p><p>With years of experience using Procreate and Adobe Photoshop, he has developed advanced skills in digital illustration, photo retouching, image manipulation and creative editing. His experience in 3D modelling and visualisation further strengthened his understanding of perspective, depth and cinematic composition.</p><p>Today, Sina creates authentic visual stories across portraits, weddings, events and commercial content—with detail, creativity and a passion for images that last.</p></div></details>
+          </article>
+          <article class="person" data-person="vahid" role="tabpanel">
+            <p class="person-number">Co-founder</p>
+            <h3>Vahid Adib</h3>
+            <p class="role">Photographer · Filmmaker · Creative Director</p>
+            <details><summary>Read story <span>+</span></summary><div><p>With over a decade of professional experience in photography and filmmaking, Vahid has built a career around visual stories that blend creativity, emotion and technical excellence. His work spans portraits, weddings, commercial productions, branding campaigns, corporate events and creative content.</p><p>Passionate about the development of the creative industry, he has organised photography workshops, delivered professional training, mentored aspiring photographers and filmmakers, and coordinated creative events that connect artists in the community.</p><p>Known for meticulous detail and a cinematic approach, Vahid focuses on genuine emotions and timeless imagery. Every project is met with creativity, innovation and a commitment to exceptional visual experiences.</p></div></details>
+          </article>
+          </div>
+        </div>
+      </aside>
+
+      <section class="contact" id="contact">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s make something<br />that stays with people.</h2>
+        <a class="contact-link" href="mailto:imagyne.studioss@gmail.com">imagyne.studioss@gmail.com <span>↗</span></a>
+        <div class="contact-footer">
+          <p>Available worldwide</p>
+          <div class="socials">
+            <a href="https://www.instagram.com/imagynestudio.uk?igsh=dWNuazExeGk0eWR1" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
+            <a href="https://www.facebook.com/share/1EXHHBu8WF/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Facebook <span>↗</span></a>
+            <a class="mail-icon" href="mailto:imagyne.studioss@gmail.com" aria-label="Email IMAGYNE Studio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17zM4 6l8 6 8-6" /></svg></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#home">IMAGYNE<span>®</span></a><p>© <span id="year"></span> IMAGYNE Studio</p><a href="#home">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
